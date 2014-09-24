@@ -1,5 +1,5 @@
 PROGRAM_NAME = sickle
-VERSION = 1.33
+VERSION = '"$(shell git describe --tags HEAD | perl -pe s/^v//)-mullins"'
 CC = gcc
 CFLAGS = -Wall -pedantic -std=c99 -DVERSION=$(VERSION)
 DEBUG = -g

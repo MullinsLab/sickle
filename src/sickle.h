@@ -52,7 +52,7 @@ Usage_call(EXIT_SUCCESS, NULL); \
 break;
 #define case_GETOPT_VERSION_CHAR(Program_name, Version, Authors) \
 case GETOPT_VERSION_CHAR: \
-fprintf(stdout, "%s version %0.3f\nCopyright (c) 2011 The Regents " \
+fprintf(stdout, "%s version %s\nCopyright (c) 2011 The Regents " \
 "of University of California, Davis Campus.\n" \
 "%s is free software and comes with ABSOLUTELY NO WARRANTY.\n"\
 "Distributed under the MIT License.\n\nWritten by %s\n", \
